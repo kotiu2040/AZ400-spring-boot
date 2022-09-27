@@ -64,7 +64,7 @@ stages:
               buildType: 'current'
 
           - task: AzureWebApp@1
-            displayName: 'Azure Web App Deploy: gs-spring-boot'
+            displayName: 'Azure Web App Deploy: koti-spring-boot'
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
